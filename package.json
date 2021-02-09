@@ -1,0 +1,43 @@
+{
+  "name": "codeblog",
+  "version": "0.0.1",
+  "description": "Personal blog written by Edwin García",
+  "main": "index.js",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "lint": "eslint ./src/",
+    "lint:fix": "eslint ./src/ --fix",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwintrumpet/codeblog.git"
+  },
+  "keywords": [
+    "gatsby",
+    "blog",
+    "ant design",
+    "markdown"
+  ],
+  "author": "Edwin García <spark.com.co@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwintrumpet/codeblog/issues"
+  },
+  "homepage": "https://github.com/edwintrumpet/codeblog#readme",
+  "dependencies": {
+    "gatsby": "2.32.3",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "7.19.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "husky": "4.3.8"
+  }
+}
