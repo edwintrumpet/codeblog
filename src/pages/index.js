@@ -1,5 +1,13 @@
+import { ToolOutlined } from '@ant-design/icons';
+import { Result } from 'antd';
 import React from 'react';
 
 export default function index() {
-  return <h1>website under construction</h1>;
+  return (
+    <Result
+      icon={<ToolOutlined />}
+      status="warning"
+      title="Sitio en construcción"
+    />
+  );
 }
