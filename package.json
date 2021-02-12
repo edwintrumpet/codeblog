@@ -27,7 +27,13 @@
   },
   "homepage": "https://github.com/edwintrumpet/codeblog#readme",
   "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "antd": "4.12.2",
     "gatsby": "2.32.3",
+    "gatsby-plugin-antd": "2.2.0",
+    "gatsby-plugin-less": "4.7.0",
+    "less": "4.1.1",
+    "less-to-json": "1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },
